@@ -1,0 +1,6 @@
+# name  (clone URL added when GitHub repos are created)
+mvw-core
+mvw-parser-awesome-opus55
+mvw-parser-skillry-opus55
+mvw-parser-higgsfield-content-factory
+mvw-viewer
