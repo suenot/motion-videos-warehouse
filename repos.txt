@@ -1,6 +1,6 @@
-# name  (clone URL added when GitHub repos are created)
-mvw-core
-mvw-parser-awesome-opus55
-mvw-parser-skillry-opus55
-mvw-parser-higgsfield-content-factory
-mvw-viewer
+# name  url
+mvw-core git@github.com:suenot/mvw-core.git
+mvw-parser-awesome-opus55 git@github.com:suenot/mvw-parser-awesome-opus55.git
+mvw-parser-skillry-opus55 git@github.com:suenot/mvw-parser-skillry-opus55.git
+mvw-parser-higgsfield-content-factory git@github.com:suenot/mvw-parser-higgsfield-content-factory.git
+mvw-viewer git@github.com:suenot/mvw-viewer.git
