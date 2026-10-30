@@ -9,6 +9,7 @@ Collection of motion videos + generation prompts. Git workspace: this repo holds
 | `mvw-parser-skillry-opus55` | skillry.dev: original/remake mp4 |
 | `mvw-parser-higgsfield-content-factory` | higgsfield.ai/content-factory presets |
 | `mvw-viewer` | browse the local warehouse |
+| `mvw-importer-local` | copy local mp4+jpg folders into the warehouse |
 
 ```
 warehouse/<source>/<id>/{meta.json,prompt.txt,original.mp4,remake.mp4,poster.*}
