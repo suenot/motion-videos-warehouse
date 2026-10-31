@@ -10,6 +10,7 @@ Collection of motion videos + generation prompts. Git workspace: this repo holds
 | `mvw-parser-higgsfield-content-factory` | higgsfield.ai/content-factory presets |
 | `mvw-viewer` | browse the local warehouse |
 | `mvw-importer-local` | copy local mp4+jpg folders into the warehouse |
+| `mvw-deploy` | Server 1 stack: nginx media host + daily parsers |
 
 ```
 warehouse/<source>/<id>/{meta.json,prompt.txt,original.mp4,remake.mp4,poster.*}
