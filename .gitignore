@@ -1,4 +1,3 @@
 warehouse/
-mvw-*/
 __pycache__/
-production-warehouse/
+.DS_Store

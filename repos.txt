@@ -1,9 +1,0 @@
-# name  url
-mvw-core git@github.com:suenot/mvw-core.git
-mvw-parser-awesome-opus55 git@github.com:suenot/mvw-parser-awesome-opus55.git
-mvw-parser-skillry-opus55 git@github.com:suenot/mvw-parser-skillry-opus55.git
-mvw-parser-higgsfield-content-factory git@github.com:suenot/mvw-parser-higgsfield-content-factory.git
-mvw-viewer git@github.com:suenot/mvw-viewer.git
-mvw-importer-local git@github.com:suenot/mvw-importer-local.git
-mvw-deploy git@github.com:suenot/mvw-deploy.git
-production-warehouse git@github.com:suenot/production-warehouse.git

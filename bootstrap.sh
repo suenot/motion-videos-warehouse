@@ -1,4 +1,4 @@
 #!/bin/sh
-# Clone all project repos listed in repos.txt next to this file.
+# Fetch every source repo (git submodules). Safe to re-run; also pulls their latest commits with --remote.
 cd "$(dirname "$0")"
-grep -v '^#' repos.txt | while read name url; do [ -d "$name" ] || git clone "$url" "$name"; done
+git submodule update --init --recursive "$@"

@@ -1,0 +1,24 @@
+[submodule "mvw-core"]
+	path = mvw-core
+	url = https://github.com/suenot/mvw-core.git
+[submodule "mvw-parser-awesome-opus55"]
+	path = mvw-parser-awesome-opus55
+	url = https://github.com/suenot/mvw-parser-awesome-opus55.git
+[submodule "mvw-parser-skillry-opus55"]
+	path = mvw-parser-skillry-opus55
+	url = https://github.com/suenot/mvw-parser-skillry-opus55.git
+[submodule "mvw-parser-higgsfield-content-factory"]
+	path = mvw-parser-higgsfield-content-factory
+	url = https://github.com/suenot/mvw-parser-higgsfield-content-factory.git
+[submodule "mvw-viewer"]
+	path = mvw-viewer
+	url = https://github.com/suenot/mvw-viewer.git
+[submodule "mvw-importer-local"]
+	path = mvw-importer-local
+	url = https://github.com/suenot/mvw-importer-local.git
+[submodule "mvw-deploy"]
+	path = mvw-deploy
+	url = https://github.com/suenot/mvw-deploy.git
+[submodule "production-warehouse"]
+	path = production-warehouse
+	url = https://github.com/suenot/production-warehouse.git
