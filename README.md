@@ -35,5 +35,5 @@ Data goes to `./warehouse` (override with `MVW_DATA=/path`). Re-run `./run-all.s
 - Higgsfield full scroll: set `MVW_PYTHON` to a Python with `camoufox` installed (otherwise static HTML fallback).
 - Your own folders of `name.mp4` + `name.jpg`: `./mvw-importer-local/run.sh --source my-source <folders>`.
 - New source: copy a parser repo, add it to `repos.txt`.
-- Rebuild UI: `cd mvw-viewer/web && npm ci && npm run build`.
+- Rebuild UI: `cd mvw-viewer/web && bun install && bun run build`.
 - Own server (nginx media host + daily parsers via Docker): see [`mvw-deploy`](https://github.com/suenot/mvw-deploy).
