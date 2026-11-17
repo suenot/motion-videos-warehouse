@@ -36,4 +36,6 @@ Data goes to `./warehouse` (override with `MVW_DATA=/path`). Re-run `./run-all.s
 - Your own folders of `name.mp4` + `name.jpg`: `./mvw-importer-local/run.sh --source my-source <folders>`.
 - New source: copy a parser repo (`mvw-parser-<name>`), then `git submodule add <url> mvw-parser-<name>`.
 - Rebuild UI: `cd mvw-viewer/web && bun install && bun run build`.
+- AI access (read-only MCP, remote and local, plus plain JSON): see [`mvw-viewer/mcp`](https://github.com/suenot/mvw-viewer/tree/main/mcp). Remote: `claude mcp add --transport http warehouse https://production-warehouse.suenot.com/mcp`.
+- Publish the site and the MCP function: `mvw-viewer/scripts/sync-production.sh`, then commit and push `mvw-viewer` and `production-warehouse`.
 - Own server (nginx media host + daily parsers via Docker): see [`mvw-deploy`](https://github.com/suenot/mvw-deploy).
